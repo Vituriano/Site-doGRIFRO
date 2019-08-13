@@ -1,0 +1,165 @@
+::-webkit-scrollbar {
+  width: 12px;
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+  background: grey;
+}
+
+body {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #dc3545;
+}
+.sair a{
+  color: #e8343b;
+}
+.sair a:hover {
+  color: #ac262b;
+}
+.sair a:focus {
+  color: #81191d;
+}
+.final {
+  color: white;
+  padding: 14px;
+  background: #bb2a38;
+  font-size: 15px;
+}
+.final a{
+  color: white;
+}
+.final a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-bottom:20px;
+  margin-top: 20px;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;  
+  margin-bottom:20px;
+  margin-top: 20px;
+}
+
+.login{
+  background: #fff;
+  font-weight: 600;
+  color: #dc3545;
+}
+#contato{
+  padding-bottom: 30px;
+  background: #dc3545;
+}
+.ocn{
+  margin: 0 auto;
+  width: 100%;
+}
+#inscrever{
+  padding: 30px 20px 0 20px;
+  width: 100%;
+  float: left;
+}
+.imagem-responsiva{
+ height:auto;
+ width: 5%; 
+ min-width:100px; 
+ min-height:30px;
+ padding: 0;
+}
+input[type='file'] {
+  display: none
+}
+.input-wrapper label {
+  background-color: #28a745;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px;
+  padding: 6px 20px
+}
+
+.input-wrapper label:hover {
+  background-color: #218838;
+}
+
+/* The Modal (background) */
+.modal {
+  display: block;
+  visibility: visible; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 800; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  width: 40%;
+  border: 1px solid #888;
+
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    width: 90%;
+  } 
+}
+
+
+/* The Close Button */
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+} 
